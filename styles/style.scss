@@ -1,0 +1,54 @@
+.container-fluid {
+	/*background-color: #32a852;*/
+	max-width: 1310px;
+}
+
+.first{
+	background-color: #8ff2ce;
+}
+
+.second {
+	background-color: #fad243;
+}
+
+
+.third {
+	background-color: #ed7239;
+}
+
+/* navbar */
+
+.navbar {
+	margin-left: -1px;
+	border: 1px solid black;
+}
+
+.nav-item {
+	flex-grow: 1;
+}
+
+.nav-link {
+	display: block;
+	border-left: 1px solid #BBB;
+	font-weight: 700;
+	font-size: 16px;
+	text-align: center;
+	padding: 0!important;
+}
+
+.form-inline {
+	height: 100%;
+	margin: 0!important;
+}
+
+.search {
+	/*background-color: #ed5d53;*/
+	width: 65px!important;
+	height: 54px;
+	padding: 0;
+	font-size: 16px;
+	border: none;
+}
+
+
+
