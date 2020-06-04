@@ -9,7 +9,8 @@ body {
   max-width: 1310px; }
 
 .first {
-  background-color: #8ff2ce; }
+  background-color: #8ff2ce;
+  height: 200px; }
 
 .second {
   /*background-color: #fad243;*/ }
@@ -105,7 +106,8 @@ section::before {
 .section-title {
   color: rgba(3, 3, 3, 0.4);
   font-size: 16px;
-  padding-top: 10px; }
+  padding: 10px 10px 0 10px;
+  text-transform: uppercase; }
 
 /* middle column */
 .card {
@@ -179,6 +181,13 @@ section::before {
   font-weight: 100; }
 
 /* opinion */
+.op-article {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+.op-info {
+  padding-left: 20px; }
+
 .link-2 {
   color: black;
   font-size: 16px; }
@@ -187,7 +196,37 @@ section::before {
   color: #f72210;
   text-decoration: none; }
 
+/* heroes of the pandemic */
+.article-huge {
+  padding: 0 10px; }
+
+.img-huge {
+  width: 100%; }
+
+.link-3 {
+  color: #AAA;
+  font-size: 16px; }
+
+.link-3:hover {
+  color: #AAA;
+  text-decoration: none; }
+
 /* media queries */
+@media (min-width: 768px) {
+  .section-wrapper {
+    margin-top: 20px; }
+
+  .section-wrapper:first-child {
+    margin-top: 0; }
+
+  .section-wrapper::before {
+    display: none; }
+
+  .wrapper-huge {
+    display: flex;
+    flex-direction: row; }
+    .wrapper-huge h3 {
+      line-height: 16px; } }
 @media (min-width: 992px) {
   .navbar-toggler {
     display: none; }
